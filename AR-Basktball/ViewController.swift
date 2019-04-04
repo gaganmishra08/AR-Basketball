@@ -78,7 +78,6 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         ballNode.position = cameraPosition
         seceneView.scene.rootNode.addChildNode(ballNode)
         
-        
     }
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
